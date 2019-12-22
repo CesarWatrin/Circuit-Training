@@ -1,0 +1,67 @@
+
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+.chronometre{
+      position: relative;
+      top : 200px;
+       margin: auto ;
+       width: 960px;
+       text-align: center;
+       font-family:'Oswald', sans-serif;
+
+
+
+
+       .tim{
+         margin: auto;
+         width: 960px;
+         border: 2px solid;
+         border-radius: 10px;
+         padding:5px 0;
+         text-align: center;
+         font-size: 6.8em;
+         margin-bottom: 10px;
+       }
+
+       button{
+         background: #3498db;
+         color: #fff;
+         width: 350px;
+         border: 1px solid;
+         font-size: 4em;
+         border-radius: 10px;
+         line-height: 1.5em;
+         margin: 20px;
+       }
+
+       #reset {
+          background: red;
+          margin: 10px;
+       }
+
+     }
+
+     #plateforme {
+       position: relative;
+       top : 150px;
+       font-family: 'Oswald', sans-serif;
+       text-align: center;
+
+       #surpc {
+         font-size: 4em;
+       }
+     }
+
+     #LesTours {
+       position: relative;
+       top : 150px;
+       font-family: 'Oswald', sans-serif;
+       text-align: center;
+       #starteur {
+         font-size: 20em;
+       }
+       #exercice {
+         font-size: 18em;
+       }
+
+
+     }
