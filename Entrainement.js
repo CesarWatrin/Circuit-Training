@@ -104,7 +104,7 @@
   function reset(){
     clearInterval(t);
     btn_start.disabled=false;
-    document.getElementById("body").style.backgroundColor="black";
+    document.getElementById("body").style.backgroundColor="#302646";
     ms=0,s=0,mn=0,h=0;
     /*on accède aux différents span par leurs indice*/
     sp[0].innerHTML=h+" h";
@@ -154,7 +154,7 @@
   }
 
   function pompe() {
-    document.getElementById("body").style.backgroundColor="red";
+    document.getElementById("body").style.backgroundColor="#DC2626";
     p[1].innerHTML= "POMPE";
     var bool = detectmob();
     if (bool==false) {
@@ -163,7 +163,7 @@
   }
 
   function crunch() {
-    document.getElementById("body").style.backgroundColor="red";
+    document.getElementById("body").style.backgroundColor="#DC2626";
     p[1].innerHTML= "CRUNCH";
     var bool = detectmob();
     if (bool==false) {
@@ -172,7 +172,7 @@
   }
 
   function burpee() {
-    document.getElementById("body").style.backgroundColor="red";
+    document.getElementById("body").style.backgroundColor="#DC2626";
     p[1].innerHTML= "BURPEE";
     var bool = detectmob();
     if (bool==false) {
@@ -181,7 +181,7 @@
   }
 
   function gainage() {
-    document.getElementById("body").style.backgroundColor="red";
+    document.getElementById("body").style.backgroundColor="#DC2626";
     p[1].innerHTML= "GAINAGE";
     var bool = detectmob();
     if (bool==false) {
@@ -190,7 +190,7 @@
   }
 
   function fentes() {
-    document.getElementById("body").style.backgroundColor="red";
+    document.getElementById("body").style.backgroundColor="#DC2626";
     p[1].innerHTML= "FENTES";
     var bool = detectmob();
     if (bool==false) {
@@ -199,7 +199,7 @@
   }
 
   function repos() {
-    document.getElementById("body").style.backgroundColor="green";
+    document.getElementById("body").style.backgroundColor="#4A9E1A";
     p[1].innerHTML= "REPOS";
     var bool = detectmob();
     if (bool==false) {

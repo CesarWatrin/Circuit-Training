@@ -1,5 +1,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+body {
+  background: #302646;
+}
+
 .chronometre{
       position: relative;
       top : 200px;
@@ -7,6 +12,7 @@
        width: 960px;
        text-align: center;
        font-family:'Oswald', sans-serif;
+       color: white;
 
 
 
@@ -23,10 +29,10 @@
        }
 
        button{
-         background: #3498db;
-         color: #fff;
+         background: rgba(0, 0, 0, 0);
+         color: white;
          width: 350px;
-         border: 1px solid;
+         border: 1px solid white;
          font-size: 4em;
          border-radius: 10px;
          line-height: 1.5em;
@@ -34,7 +40,6 @@
        }
 
        #reset {
-          background: red;
           margin: 10px;
        }
 
@@ -43,6 +48,7 @@
      #plateforme {
        position: relative;
        top : 150px;
+       color : white;
        font-family: 'Oswald', sans-serif;
        text-align: center;
 
@@ -52,6 +58,7 @@
      }
 
      #LesTours {
+       color : white;
        position: relative;
        top : 150px;
        font-family: 'Oswald', sans-serif;
