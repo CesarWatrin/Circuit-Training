@@ -6,7 +6,7 @@
     <title>Entrainement BOXE</title>
   </head>
   <body>
-    Page de sélection d'entrainement. -Version Beta-
+    Page de sélection d'entrainements. -Version Beta-
 
 
 
