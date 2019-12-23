@@ -17,10 +17,19 @@
   	     <span >0 s</span> :
   	     <span >0 ms</span>
       </div>
-      
+
       <button id="start" onclick="adapt()">Lancer</button>
       <button id="stop" onclick="stop()">Arrêter</button>
       <button id="reset" onclick="reset(); supprime()">Réinitialiser</button>
+      <section class="portfolio-experiment">
+        <a>
+          <span class="text">Quitter</span>
+          <span class="line -right"></span>
+          <span class="line -top"></span>
+          <span class="line -left"></span>
+          <span class="line -bottom"></span>
+        </a>
+      </section>
 
     </div>
 

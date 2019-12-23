@@ -144,12 +144,16 @@
 
 	/*on arrête le "timer" par clearInterval ,on réactive le bouton start */
 	function stop(){
+    var audio = new Audio('bruitages/bouton.mp3');
+    audio.play();
     clearInterval(t);
     btn_start.disabled=false;
     btn_stop.disabled=true;
 	}
   /*dans cette fonction on arrête le "timer" ,on réactive le bouton "start" et on initialise les variables à zéro */
   function reset(){
+    var audio = new Audio('bruitages/bouton.mp3');
+    audio.play();
     clearInterval(t);
     btn_start.disabled=false;
     document.getElementById("body").style.backgroundColor="#302646";
