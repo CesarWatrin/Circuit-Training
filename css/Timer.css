@@ -46,6 +46,7 @@ body {
 
 .chronometre .portfolio-experiment a {
   color: white;
+  text-decoration: none;
   padding: 1em calc(1em * 1.2);
   display: inline-block;
   border: 1px solid transparent;
