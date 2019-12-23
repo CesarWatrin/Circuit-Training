@@ -6,8 +6,8 @@
     <title>Entrainement BOXE</title>
   </head>
   <body>
-
-
+   <h1>Page de sélection d'un entrainement</h1>
+   <h2>-Version Beta-</h2>
 
 
 
