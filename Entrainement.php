@@ -6,7 +6,10 @@
     <title>Entrainement BOXE</title>
   </head>
   <body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 83ce47c720671dd587f25e4b9724781b558e5de3
    <h1>Page de sélection d'un entrainement</h1>
    <h2>-Version Beta-</h2>
 
