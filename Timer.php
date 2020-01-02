@@ -44,6 +44,6 @@
     <script type="text/javascript" src="http://services.supportduweb.com/navigation_up_down/1-5417-right.js"></script>
     </div>
 
-    <script src="Timer.js"></script>
+    <script src="js/Timer.js"></script>
   </body>
 </html>
